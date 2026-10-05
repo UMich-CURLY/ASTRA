@@ -40,7 +40,7 @@ Launch Isaac Sim and open the extensions menu (Window -> Extensions). Clear the 
 
 ## Examples
 
-In Isaac Sim, File -> Open. Navigate to the stages folder inside of the extension
+In Isaac Sim, File -> Open. Navigate to the stages folder inside the extension
 
 ```
 /home/USER/isaacsim/extsUser/ASTRA/assets/stages/
@@ -50,8 +50,12 @@ Open stage_pond.usd
 
 # Keyboard Control
 
-To control the ASV, the Q (fwd) + A (aft) control the port thrust and U + J control the starboard thrust.
+To control the ASV, the Q (fwd) + A (aft) control the port thrust, and U + J control the starboard thrust.
 
 # Settings
 
-After enabling the extension, a panel will open providing basic settings. To open/close this panel, Click ASTRA at the top bar menu -> Settings. More options such as changing boat geometry, propeller strength/location, mass, and individual sensors are available by modifying the code in ASTRA/modules/
+After enabling the extension, a panel will open providing basic settings. To open/close this panel, click ASTRA at the top bar menu -> Settings. More options such as changing boat geometry, propeller strength/location, mass, and individual sensors are available by modifying the code in ASTRA/modules/
+
+# ASTRA_RL
+
+The Isaac Lab extension of this work will be released soon and will have a link **_here_**.
