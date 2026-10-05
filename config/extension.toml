@@ -1,0 +1,37 @@
+# Extension configuration file.
+# Visit the "Extension configuration file (extension.toml)" section for more details:
+# https://docs.omniverse.nvidia.com/kit/docs/kit-manual/latest/guide/extensions_advanced.html
+#
+
+[core]
+reloadable = true
+order = 0
+
+[package]
+version = "0.1.0"
+category = "simulation"
+title = "ASTRA"
+description = "ASV Simulator for Transferable Realistic Autonomy"
+authors = ["Tim Lazouski <tlazousk@umich.edu>","Cody Sheltraw <cshel@umich.edu>"]
+repository = "https://github.com/UMich-CURLY/ASTRA"
+changelog = "docs/CHANGELOG.md"
+preview_image = "data/preview.png"
+readme = "docs/README.md"
+icon = "data/icon.png"
+
+[dependencies]
+"omni.kit.uiapp" = {}
+"omni.graph.core" = {}
+"omni.graph.nodes" = {}
+"omni.warp.core" = {}
+"isaacsim.ros2.bridge" = {}
+"isaacsim.gui.components" = {}
+"isaacsim.core.api" = {}
+"isaacsim.core.prims" = {}
+"isaacsim.core.utils" = {}
+"isaacsim.examples.extension" = {}
+
+[[python.module]]
+name = "modules.physics"
+#name = "modules.perception"
+
