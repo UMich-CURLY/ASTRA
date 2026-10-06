@@ -58,4 +58,4 @@ After enabling the extension, a panel will open providing basic settings. To ope
 
 # ASTRA_RL
 
-The Isaac Lab extension of this work will be released soon and will have a link **_here_**.
+The Isaac Lab extension of this work: https://github.com/UMich-CURLY/ASTRA_RL.
